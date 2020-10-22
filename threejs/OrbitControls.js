@@ -6,7 +6,7 @@
  * @author erich666 / http://erichaines.com
  * @author ScieCode / http://github.com/sciecode
  */
-import * as THREE from 'three'
+// import * as THREE from 'three'
 // This set of controls performs orbiting, dollying (zooming), and panning.
 // Unlike TrackballControls, it maintains the "up" direction object.up (+Y by default).
 //
@@ -994,4 +994,4 @@ THREE.MapControls = function (object, domElement) {
 THREE.MapControls.prototype = Object.create(THREE.EventDispatcher.prototype)
 THREE.MapControls.prototype.constructor = THREE.MapControls
 
-export { OrbitControls, MapControls }
+// export { OrbitControls, MapControls }
